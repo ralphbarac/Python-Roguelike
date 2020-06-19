@@ -1,0 +1,16 @@
+from enum import Enum
+
+class GameStates(Enum):
+    PLAYERS_TURN = 1
+    ENEMY_TURN = 2
+    PLAYER_DEAD = 3
+    SHOW_INVENTORY = 4
+    DROP_INVENTORY = 5
+    INVASION_HOST = 6
+    INVADER = 7
+    LEVEL_UP = 8
+    CHARACTER_SCREEN = 9
+    BOOK_SCREEN = 10
+    SPELL_LIST = 11
+    TARGETING = 12
+    STATUS_EFFECT_RESOLUTIONS = 13
